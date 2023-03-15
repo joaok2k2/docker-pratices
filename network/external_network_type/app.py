@@ -9,7 +9,7 @@ app.config["DEBUG"] = True
 @app.route("/", methods=["GET"])
 
 def index():
-    data = rquests.get('https://randomuser.me/api')
+    data = requests.get('https://randomuser.me/api')
    
     return data.json()
 
