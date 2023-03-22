@@ -7,10 +7,10 @@ from flask_mysqldb import MySQL
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'joaobsp'
-app.config['MYSQL_PASSWORD'] = 'Mysql@123'
-app.config['MYSQL_DB'] = 'flaskhost'
+app.config['MYSQL_HOST'] = 'mysqlapi'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = 'flaskdocker'
 
 mysql = MySQL(app)
 
