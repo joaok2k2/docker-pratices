@@ -1,0 +1,39 @@
+# Instruções para o programa
+nome: "João Dev"
+idade: 25 # Esta é a idade do usuário
+
+# Este objeto descreve o nosso projeto
+objeto:
+  nome: "Devops"
+  funcao: "Money"
+
+versao: 2
+versao_completa: 2.12
+
+sem_aspas: funcionando
+com_aspas: "funcionando tambem"
+
+nulo1: ~
+nulo2: null
+
+true_1: True
+true_2: On
+
+false_1: False
+false_2: Off
+
+array_1: [1, 2 ,3 ,4 ,5]
+array_2:
+ - uno
+ - On
+ - False
+
+
+obj: {a: 1, b: 2, c: 3, objeto-interno: {a: 2, b: 3}}
+
+objeto_2:
+  a: 1
+  b: 2
+  c: 3
+  objeto_interno:
+    x: 2
